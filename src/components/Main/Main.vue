@@ -5,7 +5,7 @@ import { ref } from "vue";
 const produto = ref(new URL("@/assets/Banana.png", import.meta.url).href);
 
 const banana = () => {
-  produto.value = new URL("@/assets/banana.png", import.meta.url).href;
+  produto.value = new URL("@/assets/Banana.png", import.meta.url).href;
 };
 
 const morango = () => {
