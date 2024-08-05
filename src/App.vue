@@ -1,10 +1,12 @@
 <!-- Imports -->
 <script setup>
 import Header from "./components/Header/Header.vue";
+import Main from "./components/Main/Main.vue";
 </script>
 
 <template>
   <Header />
+  <Main />
 </template>
 
 <style>
@@ -15,5 +17,7 @@ import Header from "./components/Header/Header.vue";
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 </style>
